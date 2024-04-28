@@ -1,0 +1,15 @@
+Week 3 Overview
+Welcome to Week 3 of Research Methods! This week, we're going to learn some basics of the theory of probability and introduce crucial concepts of random variables and probability distributions. The latter two concepts are essential for statistical analysis and are applied in hypothesis testing that we will be studying extensively in the following weeks.
+
+Self-directed learning materials
+This week there are four videos for you to watch (along with captioned slides) that cover:
+
+An introduction to probability
+Conditional probability and methods of counting the size of a sample space
+Random variables and discrete probability distributions
+Continuous probability distributions
+Tutorial (Tuesday, 9.30-11am, Dalhousie 2F15)
+In this tutorial, we will look at some examples of the theory of probability, as well as how we can apply it in practice to understand real-world problems. 
+
+Lab (Wednesday 2-4pm, Queen Mother Building labs)
+In the lab, you'll get some practical experience of probability concepts covered in this week's videos/slides, including probability distributions, using the R programming language and RStudio environment that were introduced last week. 

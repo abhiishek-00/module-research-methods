@@ -1,0 +1,14 @@
+Week 2 Overview
+Welcome to Week 2! This week, I'll give an overview of some basic concepts from Statistics, including the crucial concepts of population and sample. We'll also consider some statistics for summarising data sets and for relative standing of individual data items within data sets, such as mean, standard deviation and percentiles.
+
+Self-directed learning materials
+This week there are three videos for you to watch (along with captioned slides) that cover:
+
+An introduction to Statistics and statistical thinking
+Measures of Centre and Variation including the mean/mode/median and standard deviations
+Measures of Relative Standing including Z-Scores, percentiles, and quartiles.
+Tutorial (Tuesday, 9.30-11am, Scrymgeour 2.08)
+In this tutorial, we will look into some problems related to the basic concepts of statistics, including sampling methods, as well as the problems related to measures of centre and relative standing.
+
+Lab (Wednesday 2-4pm, Queen Mother Building labs)
+In the lab, you'll be doing some of the basic statistical analyses discussed in the videos and tutorial using the R programming language. This will give you a hands-on understanding of how these things work. 

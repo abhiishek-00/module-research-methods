@@ -1,0 +1,246 @@
+
+********************* Getting help *********************
+
+> ?ls				# Help for command ls
+> help(“ls”)		# Same thing, but can be used when there are special characters in the string
+> help(“bs”, try.all.packages = TRUE)		# Look for help in all packages
+> help("bs", package="splines")			# Look for help in splines package
+> help.search("tree")					# All functions that mention the word ‘tree’
+
+
+
+********************* Reading programs from a file *********************
+
+> source(“myprogram.R”)	# Executes an R program from the file. Note that on Windows machines, you need to use \\ instead of \ if you are giving a path to the file
+> sink (“output”)		# Redirects the output to a file
+> sink()				# Restores the output to the console
+
+
+/////////////////////////////////////// Objects ///////////////////////////////////////
+
+********************* Assigning values to objects *********************
+	
+> n <-14	# Assigns value 14 to the object n
+> n		# Prints the value of n. The number in bracket indicates that the output is displayed from that element in the object
+[1] 14
+
+> 5 -> n	# We can write the assignment the other way around, too. If the object already exists, its previous value is erased.
+> n
+[1] 5
+
+> assign (“x”, 14)	# Yet another way to do assignment
+
+> (10+2)*5	# If we do not assign the value to the object, the value is just displayed (but not stored)
+[1] 60
+
+> x <- 4; y <- 3		# Multiple commands on the same line	
+> ls()			# Lists all the objects in memory
+[1] “n” “x” “y”
+> ls.str()			# More details about the objects
+n :  num 5
+x :  num 4
+y :  num 3
+
+> rm(n)			# Remove n from memory
+> rm(list=ls())		# Remove all objects from memory
+> ls()
+character(0)
+
+
+/////////////////////////////////////// Types of Objects ///////////////////////////////////////
+
+********************* Vectors *********************
+
+> vec <- c(1, 2, 3, 4, 5)	# create a vector with elements 1, 2, 3, 4, 5
+> vec
+[1] 1 2 3 4 5
+> vec2 <- c(vec, vec)		# concatenate the two vectors into one
+> vec2
+ [1] 1 2 3 4 5 1 2 3 4 5
+> other <- c(6, 7, 8, 9, 10)
+> vec + other			# addition of vectors
+[1]  7  9 11 13 15
+> 2*vec				# multiplication by constant
+[1]  2  4  6  8 10
+> 2 * vec + other		# both of the above
+[1]  8 11 14 17 20
+> vec * other			# scalar product (element-by-element)
+[1]  6 14 24 36 50
+
+	
+> c(1:10)				# generates a regular sequence
+ [1]  1  2  3  4  5  6  7  8  9 10
+> seq(1, 10)			# Another way to do the same
+ [1]  1  2  3  4  5  6  7  8  9 10
+> seq (1, 10, 2)			# General sequence with a step
+[1] 1 3 5 7 9
+> seq (length=10, from=4)	# Sequence of length 10, starting from 4
+ [1]  4  5  6  7  8  9 10 11 12 
+> ?rep				# Function for replicating objects in various complicated ways
+
+
+> x <- c(1:10)
+> y <- x[x<5]			# Index vector - selects a subset of vector x, with elements that are <5
+> y
+[1] 1 2 3 4
+> x[1:5]				# Elements with indexes from 1 to 5 (indexes start from 1)
+[1] 1 2 3 4 5
+> x[-(1:5)]			# All but the elements with indexes from 1 to 5 (note the - sign)
+[1]  6  7  8  9 10
+> x[11] <- 4			# Add a new element to the vector
+> x
+ [1]  1  2  3  4  5  6  7  8  9 10  4
+
+
+
+********************* Lists *********************
+
+> Lst <- list(name="Fred", wife="Wilma", age=40, nr_children=2, child_ages=c(2,4)) # List of 5 elements
+															 # Note that elements need not be of the same type
+> Lst[[1]]				# First element of the list
+[1] "Fred"
+> Lst$name				# Refer to the element of the list by its name
+[1] "Fred"
+> Lst[["name"]]			# Same as above
+[1] "Fred"
+> x <- "name"; Lst[[x]]	# The above allows referring to the elements of a list by name when the name is store in a variable
+[1] "Fred"
+> Lst[1]				# This is a sublist of the original list that contain just the first element. Note the difference to the above
+$name					# Lst[[1]] is the first element, Lst[1] is a sublist that contains only the first element
+[1] "Fred"
+> OtherList <- list (friend="Barny", pet="Dino")
+> c(Lst, Otherlist)		# List concatenation
+
+
+********************* Data Frames *********************
+
+> ages = c(27, 32, 24, 35, 30)
+> heights = c(185, 169, 174, 190, 171)
+> weights = c(75, 58, 80, 84, 68)
+> people = data.frame(age=ages, height=heights, weight=weights)		# Create a data frame from three vectors
+> people
+  age height weight
+1  27    185     75
+2  32    169     58
+3  24    174     80
+4  35    190     84
+5  30    171     68
+> people$age					# We can access columns in a similar way as with lists
+[1] 27 32 24 35 30
+> people[[1]]					# This returns a vector. We can consider the above data frame as a list of vectors
+[1] 27 32 24 35 30
+> people[1]					# This returns a data frame consisting only the first column (remember that Lst[1] return a list)
+  age
+1  27
+2  32
+3  24
+4  35
+5  30
+> people[["height"]]
+[1] 185 169 174 190 171
+> x <- 1:4; n <- 10	
+> data.frame (x,n)				# More ways to create a data frame
+  x  n
+1 1 10
+2 2 10
+3 3 10
+4 4 10
+> M <- c(10,35)
+> data.frame (x,M)				# If we create data frame from vectors of unequal length, the shorter vector is repeated
+  x  M
+1 1 10
+2 2 35
+3 3 10
+4 4 35		
+
+
+
+
+********************* Attributes of objects *********************
+
+> x <- 1			
+> mode(x)				# Mode of an object (numeric, character, complex or logical)
+[1] "numeric"
+> length(x)			# Length of an object
+[1] 1
+
+
+
+/////////////////////////////////////// Loading Data Into R ///////////////////////////////////////
+
+********************* Reading data from files *********************
+
+Assume we have a file data.dat which contains
+
+192 92 29
+178 68 25
+184 68 30
+
+> mydata <- read.table ("data.dat")		# Reads in a data frame and names it mydata
+> mydata
+   V1 V2 V3
+1 192 92 29
+2 178 68 25
+3 184 68 30
+> mydata["V1"]						# Access the V1 variable (colum)
+   V1
+1 192
+2 178
+3 184
+
+Assume the file data.dat is
+
+Height Weight Age
+192 92 29
+178 68 25
+184 68 30
+
+> mydata <- read.table ("data.dat", header = TRUE)	# Reads in a data frame, with names of variables in the header (first line)
+> mydata
+  Height Weight Age
+1    192     92  29
+2    178     68  25
+3    184     68  30
+> mydata["Height"]
+  Height
+1    192
+2    178
+3    184
+
+> ?read.cvs	# A special variant of the read.table function for reading in CSV files
+> ?scan	# scan is more flexible than read.table, as it allows specifying the mode of the variables. Look at the help files.
+
+> ?read.fwf	# Reads the data with fixed width format
+
+> ?write.table	# Writes the object onto screen or into a file
+> x
+[1] 1
+> write.table(x)
+"x"
+"1" 1
+> write.table(x, file="mytablefile")		# Writes an object into a file
+> ?save							# Saves multiple objects to a file
+
+
+
+
+********************* Accessing built-in datasets *********************
+
+> data()							# Lists all the available datasets. These datasets are available by name
+> Nile							# Displays the Nile dataset
+> data (package=“rpart”)				# Access datasets from the rpart package
+> data (stagec, package=“rpart”)			# Access the stagec dataset from rpart package
+> newNile <- edit(Nile)				# Enters spreadsheet-like editor to modify the dataset
+
+
+
+
+/////////////////////////////////////// Functions ///////////////////////////////////////
+
+********************* Custom functions *********************
+
+> name <- function(arg_1, arg_2, …) expressions		# General syntax for writing custom functions
+> isUnusual <- function (val, dataset) {mn <- mean(dataset); dev <- sd(dataset); val < mn-2*dev || val > mn+2*dev }
+										# A function to check if the value is unusual in the dataset
+										# The value is unusual if it is more than 2 standard deviations above or below
+										# the mean

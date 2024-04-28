@@ -1,0 +1,8 @@
+Please find the lab sheet below. As indicated on there, you will need to start by setting up an R programming environment on your computer – if this isn't available on there yet. If you're using the machines in the Queen Mother Building labs, everything you need should be readily available. Besides the PDF referenced in the lab sheet, there are many written and video tutorials available for working with R.
+
+It is also possible (and somewhat recommended) to use the RStudio IDE (freely available, if not already installed on the lab computers).
+
+Further guidance on getting started with R and RStudio
+From the R documentation attached above ("Introduction to R"), you should read sections 1-3, 5-7, 9 and 10.
+
+There is a wealth of material on the internet for beginners using RStudio. Searching for "RStudio tutorial" brings up a few, including https://education.rstudio.com/learn/beginner/, which itself is a springboard to other material to get you started.
