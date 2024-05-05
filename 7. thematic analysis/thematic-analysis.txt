@@ -1,0 +1,28 @@
+Overview of Thematic Analysis
+Thematic Analysis is a research method that allows you to analyse qualitative data in order to answer pre-determined research questions. It can be used as a stand-alone analysis or as part of a wider methodology, alongside other quantitative or qualitative methods.
+
+Thematic analysis can be implemented in a number of different ways, and you can iterate over different parts of the process as required. Typically, your thematic analysis is resouce-bound, in that you will have a set number of data sources that you have generated in order to answer a given research question. These sources might be interview transcripts, survey responses or videos of participants completing tasks, as a few examples.
+
+There are 6 stages of thematic analysis to be completed, based on Braun & Clarke (2006).
+
+Familiarisation with the data
+Generate initial codes
+Generating themes
+Reviewing themes
+Defining and naming themes
+Producing the report
+
+
+This video outlines the premise of thematic analysis and gives more details on the six stages of the process.
+https://youtu.be/jgq62UZuCEU
+
+References
+Virginia Braun & Victoria Clarke (2006) Using thematic analysis in psychology, Qualitative Research in Psychology, 3:2, 77-101, DOI: 10.1191/1478088706qp063oa
+
+Further Reading
+If you are interested in finding out more about Thematic Analysis, these links are a good place to start:
+
+https://www.nngroup.com/articles/thematic-analysis/
+https://www.psych.auckland.ac.nz/en/about/thematic-analysis.html
+https://www.youtube.com/watch?v=5zFcC10vOVY
+https://www.youtube.com/watch?v=FV5OhmEZjyg
