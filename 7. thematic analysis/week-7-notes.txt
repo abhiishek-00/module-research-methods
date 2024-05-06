@@ -1,0 +1,25 @@
+Thematic Analysis
+
+is a research method that allows you to analyse qualitative data in order to answer pre-determined research questions. It can be used as a stand-alone analysis or as part of a wider methodology, alongside other quantitative or qualitative methods.
+Typically, your thematic analysis is resource-bound, in that you will have a set number of data sources that you have generated in order to answer a given research question. These sources might be interview transcripts, survey responses or videos of participants completing tasks, as a few examples.
+
+A systematic research method that focuses on identifying patterns of meaning in qualitative data.
+
+qualitative data -> codes -> themes
+
+codes- A label to describe the meaning of an excerpt of data.
+
+themes- A feature from the data that emerges when related finding appear across participants or data sources.
+
+There are 6 stages of thematic analysis to be completed, based on Braun & Clarke (2006).
+  Familiarisation with the data - transcribing data
+  Generate initial codes- coding interesting features
+  Generating themes- collating codes into potential themes
+  Reviewing themes- 
+  Defining and naming themes
+  Producing the report
+
+page 2 of thematic-analysis-case-studies.pdf
+
+
+critical reflection is a meaning making process that helps us set goals, use what we have learned in the past to inform future action & consider the real life implications of our thinking.
