@@ -1,0 +1,202 @@
+Types of Questions:
+1. general- ex- demographic
+2. open-ended- considered supplementary
+3. closed (pre-categorised)- ex- scalar, ranked, multi-choice
+
+
+Developing Questions:
+1. avoid universal questions
+2. ask people to comment on a particular software they like & find easy to use
+3. convert answers into questions 
+
+
+Questionnaires | Categorizing reponses:
+1. binary- yes or no
+2. simple checklist- yes, no, don't know
+3. multipoint rating scale- very useful, neutral, not at all useful
+4. Likert scale- asks for strength of agreement with a statement, ex- strongly agree, neutral, strongly disagree
+5. semantic differential scale - slide 7 (week-4-L04-Data-Collection.pdf)
+6. ranked order- ex- 1 indicates most important, 4 the least
+7. multiple choice- 
+
+
+Asking the wrong question:
+1. the double question
+2. the wrong choice question- ex- is your hair pink, purple or green?
+3. the kitchen sink question- ex- Please list all the computers you have used in the last five years, what you used them for and why you changed, elaborating wherever possible with additional relevant detail.
+4. the fuzzy word question- ex- Do you frequently have problems using the system?
+5. the universal question- ex- What do you think of the manuals?
+6. the jargon question
+6. leading question- ex- Why are you happy using this machine?
+
+
+Qualitative and Quantitative Data
+Quantitative:
+1. information represented in the form of numbers which represent the results of a measurement process
+2. provide data in a consistent way
+3. enable comparisons
+4. statistical analysis
+Qualitative:
+1. verbal/written descriptions of behaviour and experience from processes of observation, interpretation and analysis
+2. to get at what’s really going on between user and machine
+
+
+Two kinds of evaluation
+Formative evaluation:
+1. highly specific
+2. to help change
+3. goes on throughout development
+4. monitoring
+5. identifying
+Summative evaluation:
+1. general
+2. to record
+3. done on completion stages
+4. summarising
+5. describing
+
+
+Observation
+1. watch users at work
+2. ask questions
+3. interaction of environment with tasks
+strengths:
+1. unobtrusive
+2. can be done in real life settings
+3. extraneous factors- ex- environment, interruptions, workplace atmosphere etc
+limitations:
+1. can't measure intention, feelings, satisfaction
+2. can record what's happening but not why
+
+
+Structured Diary
+1. users keep a diary recording for ex- when they got stuck, what the problem was etc
+strengths:
+1. uncovers long term usage problems
+2. highly specific
+3. inexpensive
+limitations:
+1. getting users to complete them
+2. trainings may be needed
+
+
+Surveys/Questionnaires
+1. identify what you want to find out
+2. who has the information
+3. select representative sample
+4. formulate introduction & questions
+5. pilot test
+6. collect data
+7. analyse
+questionnire administration:
+1. individual- researcher present
+2. group- researcher present
+3. mail
+4. web- can save money
+5. phone- quick feedback from many respondents
+analysis:
+1. responses coverted into numerical values
+2. entered into SPSS
+3. descriptive stats (means, modes)
+4. inferential stats (t-tests etc)
+   Free text – grounded theory
+strengths:
+1. can ask direct Qs
+2. not labour intensive
+3. gathering coarse data from large numbers
+4. responses pre categorised
+5. statistically analysed
+6. quick analysis
+limitations:
+1. easy to ask wrong Qs
+2. data is coarse
+3. no interaction
+4. bias introduced by low responses
+
+
+Semi-structured interviewing
+1. identify what you want to find out
+2. who has the information
+3. select representative sample
+4. formulate open ended Qs
+5. a set of probes (echo or extension)
+6. pilot test
+7. collect data
+8. analyse data
+preparing the interview:
+1. defining the Qs- clear, well defined purpose, brief & to the point, avoid ambiguity
+2. sequencing the Qs- distinct beginning, middle & end, start with warm up Qs
+during the interview:
+1. be neutral
+2. facilitate the conversation- eye contact, echo, extension
+3. don't inhibit the conversation- don't state own opinion, don't disapprove interviewees opinion, don't draw conclusions, don't ask leading Qs 
+data recording:
+1. confidentiality
+2. take notes
+3. record
+4. pre-coded
+5. post interview summary
+data analysis:
+1. transcribe recording & notes
+2. code transcriptions for quantitative analysis
+3. qualitative data- anecdotes & quotes
+4. quantitative data- categorised qualitative data, provide statistics
+strengths:
+1. high quality data
+2. can ask direct Qs
+3. can probe further
+4. flexible
+5. interactive
+6. "hidden agendas"
+limitations:
+1. expensive
+2. time consuming
+3. highly skilled
+4. interviewer effects
+5. standardisation between interviewers
+6. response bias
+
+
+Focus Groups
+1. 6 –9 users discuss new concepts and identify issues for about 2 hours
+2. run by a moderator
+3. relatively informal
+4. assesses user needs and feelings
+5. can be utilised before interface designed and/or after it has been in use
+procedure:
+1. preparation- prepare a list of issues, determine the kind of info to gather, gathe users
+2. during session- moderator keeps the discussion on track, make sure all members contribute
+3. analysis- moderator writes report
+strengths:
+1. informal
+2. peer to peer situation
+3. generates spontaneous ideas
+limitations:
+1. demanding
+2. many focus groups required
+3. users may think they want one thing when they in fact need another
+
+
+Ecological validity
+1. the ecological validity of any observation made in a laboratory situation is the extent to which the result can be generalised to a real world situation
+2. the difference between the lab situation and the real world situation is the Ecological Gap
+asks 2 Qs:
+1. What have we left out from the lab situation which would be present in the real world?”
+2. What have we added in the lab which would not be present in the real world?
+
+
+slide 40 (week-4-L04-Data-Collection.pdf)
+
+
+Ethics & Science
+responsibility to:
+A. Institution- Fabrication or making up, Falsification or manipulating, Plagiarism
+B. Public- the Bermuda Agreement - that all human genetic data should immediately be shared online (HapMap publicly available).
+C. Experiment participants- 
+	principles- voluntary, informed consent, no risk, anonymity, right to a service
+	research ethics committees- protect the participants from harm, and also the researcher and the organisation from legal actions. need to balance harm and benefit.
+D. Colleagues- peer review, appropriate credit given
+E. Students- supervision, lectures etc.
+F. Society- 
+	What about when the results conflict with cultural beliefs?
+	What about when results might be used for harm?
